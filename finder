@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require './proficiency_finder'
+
+if ARGV.length < 2
+  puts "Usage: finder workouts.csv category1 category2 ..."
+  exit
+else
+  proficiencies = ProficiencyFinder.new(ARGV[0],ARGV[1..-1])
+  proficiencies.find_least_proficient
+end
