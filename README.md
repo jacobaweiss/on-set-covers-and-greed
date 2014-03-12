@@ -28,7 +28,7 @@ Which returns:
 
 Approach
 --------
-One strategy we can use here is to use a [greedy algorithm](http://en.wikipedia.org/wiki/Greedy_algorithm) to quickly find each family member's lowest total score in a given set of categories. You can find a Ruby implementation of this strategy in the [related Github repository](#link-to-github-repo), with the covered examples.
+One strategy we can use here is to use a [greedy algorithm](http://en.wikipedia.org/wiki/Greedy_algorithm) to quickly find each family member's lowest total score in a given set of categories. You can find a Ruby implementation of this strategy in the [related Github repository](https://github.com/jacobaweiss/on-set-covers-and-greed), with the covered examples.
 
 If we take a closer look at this problem, we can identify it as the __weighted set cover__ problem:
 > Given a set __U__ of __n__ elements, a collection __S<sub>1</sub>__, __S<sub>2</sub>__, ... , __S<sub>m</sub>__ of subsets of __U__, with weights __w<sub>i</sub>__,
@@ -101,4 +101,4 @@ In Conclusion
 -------------
 Greedy algorithms can be a great solution to your problem, but remember to be careful and thoughtful about their implications. There are a myriad of intelligent solutions to this problem, with varying efficiencies. Have a good one? Share it with us!
 
-Again, a Ruby implementation can be found in the [related repository](#link-to-github-repo). Feel free to make a pull request with your own solution if you feel so inclined.
+Again, a Ruby implementation can be found in the [related repository](https://github.com/jacobaweiss/on-set-covers-and-greed). Feel free to make a pull request with your own solution if you feel so inclined.
